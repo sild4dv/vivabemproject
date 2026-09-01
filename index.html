@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VivaBem Saúde — Cuidado humano e especializado</title>
+<meta name="description" content="VivaBem Saúde reúne profissionais de diferentes especialidades para oferecer um cuidado mais próximo, humano e completo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="topo">
+  <div class="header-inner">
+    <a class="brand" href="#topo">VivaBem <span>Saúde</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menu de navegação">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="navMenu">
+      <ul>
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <a class="btn btn-primary nav-cta" href="#contato">Agendar atendimento</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1 id="hero-title">Cuidar da sua saúde também é cuidar de você.</h1>
+        <p class="hero-text">Na VivaBem Saúde, reunimos profissionais especializados e diferentes áreas de cuidado para oferecer uma experiência de saúde mais humana, tranquila e completa.</p>
+        <div class="hero-actions">
+          <a href="#servicos" class="btn btn-primary">Conheça nossos serviços</a>
+          <a href="#contato" class="btn btn-ghost">Entre em contato</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="hero-media-shape" aria-hidden="true"></div>
+        <img src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=900&q=80" alt="Profissional de saúde conversando com uma paciente em uma sala de atendimento tranquila e bem iluminada.">
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="about" id="sobre" aria-labelledby="about-title">
+    <div class="section-inner about-grid">
+      <div class="about-media">
+        <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=900&q=80" alt="Recepção acolhedora da clínica VivaBem Saúde, com poltronas confortáveis e luz natural.">
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow-plain">Sobre a VivaBem</p>
+        <h2 id="about-title">Um espaço pensado para cuidar de você</h2>
+        <p>A VivaBem Saúde nasceu com a proposta de tornar o cuidado com a saúde mais próximo e acessível. Nosso espaço reúne profissionais de diferentes áreas para acompanhar cada paciente de forma individualizada, respeitando suas necessidades e o momento de vida de cada um.</p>
+        <p>Do primeiro contato ao acompanhamento contínuo, buscamos um atendimento sem pressa, onde ouvir faz parte do cuidado.</p>
+
+        <dl class="stats">
+          <div class="stat">
+            <dt>+10</dt>
+            <dd>Profissionais especializados</dd>
+          </div>
+          <div class="stat">
+            <dt>+5.000</dt>
+            <dd>Pacientes atendidos</dd>
+          </div>
+          <div class="stat">
+            <dt>+8</dt>
+            <dd>Especialidades e serviços</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="services" id="servicos" aria-labelledby="services-title">
+    <div class="section-inner">
+      <p class="eyebrow-plain">Nossos serviços</p>
+      <h2 id="services-title">Cuidado completo em um só lugar</h2>
+
+      <div class="services-layout">
+        <article class="service service-featured">
+          <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=900&q=80" alt="Médica examinando um paciente durante uma consulta em consultório.">
+          <div class="service-body">
+            <h3>Atendimento médico</h3>
+            <p>Consultas e acompanhamento médico realizados por profissionais especializados, com atendimento individualizado e atenção ao histórico de cada paciente.</p>
+          </div>
+        </article>
+
+        <div class="service-list">
+          <article class="service service-row">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M9 3v6a3 3 0 0 0 6 0V3M12 15v6M8 21h8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>Exames laboratoriais e de imagem</h3>
+              <p>Serviços para auxiliar na prevenção, investigação e acompanhamento contínuo da sua saúde.</p>
+            </div>
+          </article>
+
+          <article class="service service-row">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3c-3 3-6 6-6 10a6 6 0 0 0 12 0c0-4-3-7-6-10Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>Aconselhamento nutricional</h3>
+              <p>Orientação nutricional personalizada, adaptada a diferentes objetivos, rotinas e necessidades.</p>
+            </div>
+          </article>
+
+          <article class="service service-row">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 12h4l2-7 4 14 2-7h4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>Procedimentos de cuidado à saúde</h3>
+              <p>Procedimentos voltados à prevenção, ao acompanhamento clínico e ao bem-estar geral dos pacientes.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="differentials" aria-labelledby="diff-title">
+    <div class="section-inner">
+      <h2 id="diff-title">Mais do que atendimento, uma experiência de cuidado.</h2>
+      <ul class="differentials-list">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16M4 12h16" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          <span>Atendimento humanizado, com escuta atenta em cada consulta</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16M4 12h16" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          <span>Profissionais especializados em diferentes áreas da saúde</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16M4 12h16" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          <span>Ambiente acolhedor, pensado para o seu conforto</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16M4 12h16" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          <span>Facilidade para acompanhar seus cuidados ao longo do tempo</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EQUIPE -->
+  <section class="team" id="equipe" aria-labelledby="team-title">
+    <div class="section-inner">
+      <p class="eyebrow-plain">Nossa equipe</p>
+      <h2 id="team-title">Profissionais que cuidam de pessoas</h2>
+
+      <div class="team-grid">
+        <article class="team-card">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80" alt="Dra. Mariana Alves, médica de clínica geral.">
+          <h3>Dra. Mariana Alves</h3>
+          <p class="role">Clínica Geral</p>
+          <p>Acompanha pacientes de todas as idades, com foco em prevenção e continuidade do cuidado.</p>
+        </article>
+
+        <article class="team-card team-card-offset">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=80" alt="Dr. Rafael Mendes, especialista em exames e diagnóstico.">
+          <h3>Dr. Rafael Mendes</h3>
+          <p class="role">Especialista em Exames e Diagnóstico</p>
+          <p>Conduz investigações diagnósticas com atenção aos detalhes e retorno claro aos pacientes.</p>
+        </article>
+
+        <article class="team-card">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=80" alt="Dra. Camila Rocha, nutricionista.">
+          <h3>Dra. Camila Rocha</h3>
+          <p class="role">Nutricionista</p>
+          <p>Constrói planos alimentares realistas, alinhados à rotina e aos objetivos de cada pessoa.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contact" id="contato" aria-labelledby="contact-title">
+    <div class="section-inner contact-grid">
+      <div class="contact-copy">
+        <p class="eyebrow-plain">Entre em contato</p>
+        <h2 id="contact-title">Vamos cuidar da sua saúde juntos?</h2>
+        <p>Preencha o formulário ao lado e nossa equipe entrará em contato para agendar o melhor horário para você.</p>
+
+        <ul class="contact-info">
+          <li>Brasília — DF</li>
+          <li>(61) 0000-0000</li>
+          <li>contato@vivabemsaude.com.br</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" autocomplete="address-level2" required>
+          </div>
+          <div class="field">
+            <label for="estado">Estado</label>
+            <input type="text" id="estado" name="estado" autocomplete="address-level1" maxlength="2" placeholder="Ex.: DF" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Enviar mensagem</button>
+        <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-grid">
+    <div>
+      <p class="brand brand-footer">VivaBem <span>Saúde</span></p>
+      <p class="footer-tagline">Saúde, cuidado e acolhimento em cada etapa.</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Links do rodapé">
+      <a href="#topo">Início</a>
+      <a href="#sobre">Sobre nós</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="footer-address">
+      <p>Brasília — DF</p>
+      <p>(61) 0000-0000</p>
+      <p>contato@vivabemsaude.com.br</p>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 VivaBem Saúde. Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
